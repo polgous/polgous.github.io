@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link href="https://dapre.presidencia.gov.co/Style Library/assets/css/SD21-presidencia.css" rel="stylesheet" type="text/css" media="all">
+    <link type="text/css" rel="stylesheet" href="./materialize/css/materialize.min.css"  media="screen,projection"/>
+
+    <style>
+.navDapre {display: flex; background-color: #fff;}
+.navDapre .container {width: 80%; height: auto; }
+.navDapre, .navDapre .nav-wrapper i, .navDapre a.sidenav-trigger, .navDapre a.sidenav-trigger i {line-height: normal; height: auto;}
+.navDapre .navDapre__list {background-color: brown; display: flex; justify-content:space-evenly; }
+.navDapre .navDapre__list, .navDapre .navDapre__list > li, .navDapre .navDapre__list > li > a {height: 100%;}
+.navDapre .navDapre__list a {padding: 1rem; color: black; background-color: aqua; display: flex; align-items: center;}
+.navDapre .navDapre__list a i {height: auto;}
+
+.navDapre .navDapre__list .dropdown-content {top: -64px;}
+
+#menuMobile li > a {line-height: normal; height: auto; padding: 1rem;}
+#menuMobile li > a i.material-icons {height: auto; line-height: normal;}
+#menuMobile .dropdown-content {top: -44px;}
+
+.navDapre a.sidenav-trigger i {margin: 1rem 0;}
+
+@media screen and (min-width: 601px) {
+    .navDapre .navDapre__list a, .navDapre .navDapre__list a i {font-size: 14px;}
+}
+@media screen and (min-width: 992px) {
+    .navDapre .navDapre__list a, .navDapre .navDapre__list a i {font-size: 10px;}
+}
+@media screen and (min-width: 1215px) {
+    .navDapre .navDapre__list a, .navDapre .navDapre__list a i {font-size: 14px;}
+}
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <header>logo</header>
+
+
+    
+
+    <nav class="navDapre">
+ <div class="container">       
+        <div class="nav-wrapper">
+            <a href="#" data-target="menuMobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="navDapre__list hide-on-med-and-down">
+                <li><a class="tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="sass.html">Inicio</a></li>
+                <li><a class="tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="badges.html">Transparencia y acceso a<br>la información pública</a></li>
+                <li><a class="dropdown-trigger tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="#!" data-target="dropdown1">Atención y Servicios<br>a la Ciudadanía<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-trigger tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="#!" data-target="dropdown2">Participa<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-trigger tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="#!" data-target="dropdown3">Prensa<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-trigger tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="#!" data-target="dropdown4">Normativa<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-trigger tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="#!" data-target="dropdown5">Gobierno<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-trigger tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="#!" data-target="dropdown6">Presidencia<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+        </div>
+</div>        
+    </nav>
+
+    <ul class="sidenav" id="menuMobile">
+        <li><a class="tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="sass.html">Inicio</a></li>
+        <li><a href="sass.html">Transparencia y acceso a la información pública</a></li>
+        <li><a href="badges.html">Atención y Servicios a la Ciudadanía</a></li>
+        <li><a href="collapsible.html">Participa</a></li>
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown11">Prensa<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="/normativa">Normativa</a></li>
+        <li><a href="https://petro">Gobierno</a></li>
+        <li><a href="mobile.html">Presidencia</a></li>
+    </ul>
+
+    <!-- Dropdown 1 -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="/AtencionCiudadana/sistema-psqr/peticiones-sugerencias-quejas-reclamos">Peticiones, Sugerencias, Quejas, Reclamos</a></li>
+        <li><a href="/AtencionCiudadana/Paginas/seguimiento-psqrd.aspx" target="_blank">Seguimiento a Peticiones, Sugerencias, Quejas, Reclamos</a></li>
+        <li><a href="/AtencionCiudadana/tramites-servicios-dapre/tramites-servicios">Trámites y Servicios</a></li>
+        <li><a href="/AtencionCiudadana/instrumentos-gestion-informacion-publica">Instrumentos de la Gestión de Información Pública </a></li>
+        <li><a href="/AtencionCiudadana/datos-abiertos">Datos Abiertos </a></li>
+        <li><a href="/AtencionCiudadana/notificaciones-por-aviso">Notificaciones por aviso</a></li>
+        <li><a href="/AtencionCiudadana/notificaciones-judiciales">Notificaciones judiciales</a></li>
+        <li><a href="/AtencionCiudadana/ofertas-empleo">Oferta de empleo</a></li>
+        <li><a href="/AtencionCiudadana/carta-trato-digno-ciudadania">Carta de trato digno a la ciudadanía</a></li>
+        <li><a href="/AtencionCiudadana/portafolio-de-servicios">Portafolio de Servicios del DAPRE</a></li>
+        <li><a href="/AtencionCiudadana/glosario">Glosario</a></li>
+        <li><a href="/AtencionCiudadana/preguntas-frecuentes">Preguntas Frecuentes</a></li>
+        <li><a href="/AtencionCiudadana/calendario">Calendario</a></li>
+        <li><a href="/AtencionCiudadana/ayudas-navegacion">Ayudas para la navegación</a></li>
+        <li><a href="/AtencionCiudadana/vinculacion-jovenes-dapre">Vinculación Jóvenes en el DAPRE</a></li>
+        <li class="divider"></li>
+        <li><a href="#!Tres">three</a></li>
+    </ul>
+    <!-- Dropdown 2 -->
+    <ul id="dropdown2" class="dropdown-content">
+        <li><a href="/AtencionCiudadana/participacion-ciudadana">Participación Ciudadana</a></li>
+        <li><a href="/AtencionCiudadana/convocatorias-consultas/convocatorias">Convocatorias y Consulta Ciudadana</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+    </ul>
+    <!-- Dropdown 3 -->
+    <ul id="dropdown3" class="dropdown-content">
+        <li><a href="/prensa">Noticias</a></li>
+        <li class="divider"></li>
+        <li><a href="https://petro.presidencia.gov.co" title="Noticias, Discursos, Fotos, Audios y videos del Gobierno del Cambio">Ir al sitio del Gobierno del Cambio</a></li>
+    </ul>
+    <!-- Dropdown 4 -->
+    <ul id="dropdown4" class="dropdown-content">
+        <li><a href="#!">Gobierno</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+    </ul>
+    <!-- Dropdown 5 -->
+    <ul id="dropdown5" class="dropdown-content">
+        <li><a href="#!">Presidencia</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+    </ul>
+    <!-- Dropdown 6 -->
+    <ul id="dropdown6" class="dropdown-content">
+        <li><a href="#!">Presidencia</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+    </ul>
+    <!-- Dropdown 1.1 -->
+    <ul id="dropdown11" class="dropdown-content">
+        <li><a href="#!">Participa mobile</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+    </ul>
+
+    
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="./materialize/js/materialize.min.js"></script>
+    <script>  
+        M.AutoInit();
+    </script>
+
+
+
+</body>
+</html>
