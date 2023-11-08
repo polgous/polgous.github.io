@@ -106,14 +106,14 @@ main {
                     <div class="nav-wrapper">
                         <a href="#" data-target="menuMobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                         <ul class="navDapre__list hide-on-med-and-down">
-                            <li><a class="tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="sass.html">Inicio</a></li>
+                            <li><a class="tooltipped" data-margin="20" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="sass.html">Inicio</a></li>
                             <li><a class="tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="/AtencionCiudadana/transparencia-y-acceso-a-informacion-publica">Transparencia y acceso a<br>la información pública</a></li>
-                            <li><a class="dropdown-trigger tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="#!" data-target="dropdown1">Atención y Servicios<br>a la Ciudadanía<i class="material-icons right">arrow_drop_down</i></a></li>
-                            <li><a class="dropdown-trigger tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="#!" data-target="dropdown2">Participa<i class="material-icons right">arrow_drop_down</i></a></li>
-                            <li><a class="dropdown-trigger tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="#!" data-target="dropdown3">Prensa<i class="material-icons right">arrow_drop_down</i></a></li>
-                            <li><a class="dropdown-trigger tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="#!" data-target="dropdown4">Normativa<i class="material-icons right">arrow_drop_down</i></a></li>
-                            <li><a class="dropdown-trigger tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="#!" data-target="dropdown5">Gobierno<i class="material-icons right">arrow_drop_down</i></a></li>
-                            <li><a class="dropdown-trigger tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="#!" data-target="dropdown6">Presidencia<i class="material-icons right">arrow_drop_down</i></a></li>
+                            <li><a class="dropdown-trigger tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="#!" data-target="ddwnAtencion">Atención y Servicios<br>a la Ciudadanía<i class="material-icons right">arrow_drop_down</i></a></li>
+                            <li><a class="dropdown-trigger tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="#!" data-target="ddwnParticipa">Participa<i class="material-icons right">arrow_drop_down</i></a></li>
+                            <li><a class="dropdown-trigger tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="#!" data-target="ddwnPrensa">Prensa<i class="material-icons right">arrow_drop_down</i></a></li>
+                            <li><a class="dropdown-trigger tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="#!" data-target="ddwnNormativa">Normativa<i class="material-icons right">arrow_drop_down</i></a></li>
+                            <li><a class="tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="https://petro.presidencia.gov.co/prensa/gabinete" target="_blank">Gabinete</a></li>
+                            <li><a class="dropdown-trigger tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="#!" data-target="ddwnPresidencia">Presidencia<i class="material-icons right">arrow_drop_down</i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -125,76 +125,90 @@ main {
 
 
     <ul class="sidenav" id="menuMobile">
-        <li><a class="tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="sass.html">Inicio</a></li>
-        <li><a href="sass.html">Transparencia y acceso a la información pública</a></li>
-        <li><a href="badges.html">Atención y Servicios a la Ciudadanía</a></li>
-        <li><a href="collapsible.html">Participa</a></li>
-        <li><a class="dropdown-trigger" href="#!" data-target="dropdown11">Prensa<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="tooltipped" data-position="bottom" data-tooltip="<img src='./hola120.gif'>" href="/">Inicio</a></li>
+        <li><a href="/AtencionCiudadana/transparencia-y-acceso-a-informacion-publica">Transparencia y acceso a la información pública</a></li>
+        <li><a href="/AtencionCiudadana">Atención y Servicios a la Ciudadanía</a></li>
+        <li><a href="/AtencionCiudadana/participacion-ciudadana">Participa</a></li>
+        <li><a class="dropdown-trigger" href="#!" data-target="ddwnPrensaMovil">Prensa<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a href="/normativa">Normativa</a></li>
-        <li><a href="https://petro">Gobierno</a></li>
-        <li><a href="mobile.html">Presidencia</a></li>
+        <li><a href="https://petro.presidencia.gov.co/prensa/gabinete">Gabinete</a></li>
+        <li><a href="/dapre">Presidencia</a></li>
     </ul>
 
     <!-- Dropdown 1 -->
-    <ul id="dropdown1" class="dropdown-content">
-        <li><a href="/AtencionCiudadana/sistema-psqr/peticiones-sugerencias-quejas-reclamos">Peticiones, Sugerencias, Quejas, Reclamos</a></li>
-        <li><a href="/AtencionCiudadana/Paginas/seguimiento-psqrd.aspx" target="_blank">Seguimiento a Peticiones, Sugerencias, Quejas, Reclamos</a></li>
-        <li><a href="/AtencionCiudadana/tramites-servicios-dapre/tramites-servicios">Trámites y Servicios</a></li>
-        <li><a href="/AtencionCiudadana/instrumentos-gestion-informacion-publica">Instrumentos de la Gestión de Información Pública </a></li>
+    <ul id="ddwnAtencion" class="dropdown-content">
+        <li><a href="/AtencionCiudadana/ayudas-navegacion">Ayudas para la navegación</a></li>
+        <li><a href="/AtencionCiudadana/carta-trato-digno-ciudadania">Carta de trato digno a la ciudadanía</a></li>
+        <li><a href="/AtencionCiudadana/calendario">Calendario</a></li>
         <li><a href="/AtencionCiudadana/datos-abiertos">Datos Abiertos </a></li>
+        <li><a href="/AtencionCiudadana/glosario">Glosario</a></li>
+        <li><a href="/AtencionCiudadana/instrumentos-gestion-informacion-publica">Instrumentos de la Gestión de Información Pública </a></li>
         <li><a href="/AtencionCiudadana/notificaciones-por-aviso">Notificaciones por aviso</a></li>
         <li><a href="/AtencionCiudadana/notificaciones-judiciales">Notificaciones judiciales</a></li>
         <li><a href="/AtencionCiudadana/ofertas-empleo">Oferta de empleo</a></li>
-        <li><a href="/AtencionCiudadana/carta-trato-digno-ciudadania">Carta de trato digno a la ciudadanía</a></li>
         <li><a href="/AtencionCiudadana/portafolio-de-servicios">Portafolio de Servicios del DAPRE</a></li>
-        <li><a href="/AtencionCiudadana/glosario">Glosario</a></li>
         <li><a href="/AtencionCiudadana/preguntas-frecuentes">Preguntas Frecuentes</a></li>
-        <li><a href="/AtencionCiudadana/calendario">Calendario</a></li>
-        <li><a href="/AtencionCiudadana/ayudas-navegacion">Ayudas para la navegación</a></li>
+        <li><a href="/AtencionCiudadana/tramites-servicios-dapre/tramites-servicios">Trámites y Servicios</a></li>
         <li><a href="/AtencionCiudadana/vinculacion-jovenes-dapre">Vinculación Jóvenes en el DAPRE</a></li>
         <li class="divider"></li>
-        <li><a href="#!Tres">three</a></li>
+        <li><a href="/AtencionCiudadana/sistema-psqr/peticiones-sugerencias-quejas-reclamos">Peticiones, Sugerencias, Quejas, Reclamos</a></li>
+        <li><a href="/AtencionCiudadana/Paginas/seguimiento-psqrd.aspx" target="_blank">Seguimiento a PSQRD</a></li>
     </ul>
     <!-- Dropdown 2 -->
-    <ul id="dropdown2" class="dropdown-content">
+    <ul id="ddwnParticipa" class="dropdown-content">
         <li><a href="/AtencionCiudadana/participacion-ciudadana">Participación Ciudadana</a></li>
         <li><a href="/AtencionCiudadana/convocatorias-consultas/convocatorias">Convocatorias y Consulta Ciudadana</a></li>
-        <li class="divider"></li>
-        <li><a href="#!">three</a></li>
     </ul>
     <!-- Dropdown 3 -->
-    <ul id="dropdown3" class="dropdown-content">
+    <ul id="ddwnPrensa" class="dropdown-content">
         <li><a href="/prensa">Noticias</a></li>
         <li class="divider"></li>
-        <li><a href="https://petro.presidencia.gov.co" title="Noticias, Discursos, Fotos, Audios y videos del Gobierno del Cambio">Ir al sitio del Gobierno del Cambio</a></li>
+        <li><a href="https://petro.presidencia.gov.co" title="Noticias, Discursos, Fotos, Audios y videos del Gobierno del Cambio" target="_blank">Ir al sitio del Gobierno del Cambio</a></li>
     </ul>
     <!-- Dropdown 4 -->
-    <ul id="dropdown4" class="dropdown-content">
-        <li><a href="#!">Gobierno</a></li>
-        <li><a href="#!">two</a></li>
+    <ul id="ddwnNormativa" class="dropdown-content">
+        <li><a href="/normativa/actos-legislativos">Actos Legislativos</a></li>
+        <li><a href="/normativa/circulares">Circulares</a></li>
+        <li><a href="/normativa/constitucion-politica">Constitución Política de Colombia</a></li>
+        <li><a href="/normativa/decretos">Decretos</a></li>
+        <li><a href="/normativa/directivas">Directivas</a></li>
+        <li><a href="/normativa/leyes">Leyes</a></li>
+        <li><a href="/normativa/resoluciones">Resoluciones</a></li>
         <li class="divider"></li>
-        <li><a href="#!">three</a></li>
+        <li><a href="http://svrpubindc.imprenta.gov.co/diario/" target="_blank">Diario Oficial</a></li>
+        <li><a href="/normativa/normas-anteriores" target="_blank">Normas anteriores</a></li>
+        <li class="divider"></li>
+        <li><a href="/normativa/agenda-regulatoria">Agenda Regulatoria</a></li>
+        <li><a href="/normativa/dur-presidencia">Decreto Único Reglamentario</a></li>
+        <li><a href="/normativa/dapre">Normas que regulan la Entidad</a></li>
+        <li><a href="/normativa/proyectos-decreto">Proyectos Normativos</a></li>
     </ul>
     <!-- Dropdown 5 -->
-    <ul id="dropdown5" class="dropdown-content">
+    <ul id="ddwnGobierno" class="dropdown-content">
         <li><a href="#!">Presidencia</a></li>
         <li><a href="#!">two</a></li>
         <li class="divider"></li>
         <li><a href="#!">three</a></li>
     </ul>
     <!-- Dropdown 6 -->
-    <ul id="dropdown6" class="dropdown-content">
-        <li><a href="#!">Presidencia</a></li>
-        <li><a href="#!">two</a></li>
+    <ul id="ddwnPresidencia" class="dropdown-content">
+        <li><a href="/dapre/contratacion/contratos-presidencia">Contratos</a></li>
+        <li><a href="/dapre/conozca-el-dapre/nuestra-entidad">Nuestra Entidad</a></li>
+        <li><a href="/dapre/planeacion/planeacion-estrategica-sectorial-2019-2022">Planeación</a></li>
+        <li><a href="/dapre/proyectos-y-presupuesto/presupuesto">Presupuesto</a></li>
+        <li><a href="/dapre/procedimientos-y-lineamientos/caracterizacion-procesos">Procedimientos y Lineamientos</a></li>
+        <li><a href="/dapre/rendicion-de-cuentas/rendicion-cuentas">Rendición de cuentas</a></li>
+        <li><a href="/dapre/sigepre/que-es-sigepre" title="Sistema Integrado de Gestión de la Presidencia de la República">¿Qué es SIGEPRE?</a></li>
         <li class="divider"></li>
-        <li><a href="#!">three</a></li>
+        <li><a href="/dapre/rendicion-de-cuentas/control-interno-disciplinario">Control Interno Disciplinario</a></li>
+        <li><a href="/fondopaz" title="Fondo de programas especiales para la paz">Fondo Paz</a></li>
+        <li><a href="/oci">Oficina de Control Interno</a></li>
     </ul>
+
     <!-- Dropdown 1.1 -->
-    <ul id="dropdown11" class="dropdown-content">
-        <li><a href="#!">Participa mobile</a></li>
-        <li><a href="#!">two</a></li>
-        <li class="divider"></li>
-        <li><a href="#!">three</a></li>
+    <ul id="ddwnPrensaMovil" class="dropdown-content">
+        <li><a href="/prensa">Noticias</a></li>
+        <li><a href="https://petro.presidencia.gov.co" title="Noticias, Discursos, Fotos, Audios y videos del Gobierno del Cambio" target="_blank">Ir al sitio del Gobierno del Cambio</a></li>
     </ul>
 
     <h2>Truncar</h2>
@@ -229,6 +243,8 @@ main {
         <p>22. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde accusamus doloribus ipsum. Sapiente atque non eius tenetur earum, laudantium exercitationem delectus itaque quas assumenda consequatur nisi, ipsum expedita saepe!</p>
         <p>23. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nobis odit ut sequi repudiandae tempora quaerat fugiat quidem illo ipsum nihil, officia quam ratione maiores a excepturi accusantium et eius.</p>
         <p>24. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde accusamus doloribus ipsum. Sapiente atque non eius tenetur earum, laudantium exercitationem delectus itaque quas assumenda consequatur nisi, ipsum expedita saepe!</p>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sequi voluptate! Vitae placeat excepturi ipsum mollitia. Aspernatur veritatis enim quo magnam velit accusantium repellendus? Iure quia nam modi culpa quasi.<br><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo id, facilis beatae quis debitis facere quia explicabo nostrum unde consectetur reiciendis perspiciatis asperiores voluptatibus tenetur quo dolorum alias magni! Quasi.</div>
     </main>
 
 
@@ -237,6 +253,10 @@ main {
     <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js"></script>
     <script>  
         M.AutoInit();
+
+        $(document).ready(function(){
+            $('.tooltipped').tooltip();
+        });
 
         // menu fijo.
         var menu = $('#menuDapre23');
