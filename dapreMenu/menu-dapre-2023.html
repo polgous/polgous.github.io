@@ -277,6 +277,16 @@ main {
 
     </script>
 
+<app-widget-root did='dapre@WC' remote="true" ></app-widget-root>
+<script>
+ var widget = document.querySelector('app-widget-root');
+ window.addEventListener('load', function() {
+   widget.init();
+   widget.expandChat();
+ })
+ </script>
+<script src="https://cdn-widgets.chattigo.com/webchat-widget.js"></script> 
+
 
 
 </body>
